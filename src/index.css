@@ -4,6 +4,7 @@
 
 body, html{
   height: 100%;
+  width: 100vw;
   background: #283632;
   background: radial-gradient(circle 400px at 80% 60%, 
   #25312e 0%, 
@@ -47,15 +48,15 @@ body, html{
   }
   20% {
     filter: drop-shadow(0 0 0px #283632); /* Glow off */
-    stroke: #423f42; /* Stroke color stays the same */
+    stroke: #423f42; 
   }
   25% {
-    filter: drop-shadow(0 0 5px #ff5cf7); /* Slight glow */
-    stroke: #ba41d3; /* Stroke color change */
+    filter: drop-shadow(0 0 5px #ff5cf7); /* Sli/ght glow */
+    stroke: #ba41d3; 
   }
   30% {
     filter: drop-shadow(0 0 0px #283632); /* Glow off */
-    stroke: #343235; /* Stroke color change */
+    stroke: #343235;
   }
   35% {
     filter: drop-shadow(0 0 12px #ff5cf7); /* Stronger glow */
@@ -67,7 +68,7 @@ body, html{
   }
   50% {
     filter: drop-shadow(0 0 9px #ff5cf7); /* Moderate glow */
-    stroke: #6a4272;
+    stroke: #ba41d3;
   }
   100% {
     filter: drop-shadow(0 0 0px #283632); 
@@ -109,6 +110,52 @@ body, html{
   border-top: 1px solid rgb(130, 255, 255);
   border-right: 2px solid rgb(130, 255, 255);
 }
-#frontend:hover{
 
+#burgerDiv{
+  position: absolute;
+  right: 80px;
+  top: 200px;
+}
+@media screen and (max-width: 1500px){
+  #burgerDiv{
+    right: auto;
+    top: 480px;
+  }
+  .responsiveDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .burger{
+    transform: scale(0.8);
+  }
+}
+@media screen and (max-width: 700px){
+  #burgerDiv{
+    right: auto;
+    top: 480px;
+  }
+  .responsiveDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .burger{
+    transform: scale(0.75);
+  }
+}
+@media screen and (max-width: 560px){
+  #burgerDiv{
+    right: auto;
+    top: 480px;
+  }
+  .responsiveDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .burger{
+    transform: scale(0.75);
+    width: 100%;
+  }
 }
