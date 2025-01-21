@@ -8,7 +8,8 @@ export default {
     extend: {
       fontFamily:{
         monoton: ['Monoton', 'sans-serif'],
-        jakarta: ['Plus Jakarta Sans', 'sans-serif']
+        jakarta: ['Plus Jakarta Sans', 'sans-serif'],
+        ultra: ['Ultra', 'sans-serif']
       }
     },
   },
