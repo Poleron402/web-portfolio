@@ -1,7 +1,11 @@
+import Burger from "../components/Burger";
 const Projects = ()=>{
     return (
         <>
-        Projects page
+        <div className="flex justify-self-end px-32 py-20">
+            <Burger/>
+        </div>
+        
         </>
     )
 }
