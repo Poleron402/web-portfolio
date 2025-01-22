@@ -114,7 +114,7 @@ body, html{
 #burgerDiv{
   position: absolute;
   right: 80px;
-  top: 200px;
+  top: 400px;
 }
 @media screen and (max-width: 1500px){
   #burgerDiv{
@@ -158,4 +158,8 @@ body, html{
     transform: scale(0.75);
     width: 100%;
   }
+}
+
+#burgerLink{
+  transform: scale(0.3);
 }
