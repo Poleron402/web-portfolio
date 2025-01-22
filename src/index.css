@@ -113,7 +113,7 @@ body, html{
 
 #burgerDiv{
   position: absolute;
-  right: 80px;
+  right: 200px;
   top: 400px;
 }
 @media screen and (max-width: 1500px){
@@ -162,4 +162,20 @@ body, html{
 
 #burgerLink{
   transform: scale(0.3);
+}
+.personalVsSchool{
+  cursor: pointer;
+  padding: 10px;
+  font-size: 25px;
+  border-radius: 10px;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+.personalVsSchool:hover{
+  background-color: #73b4aa;
+  border-radius: 10px;
+  color: #25312e;
+}
+#school-intro{
+  color: #6D7E7C;
+  font-size: 25px;
 }

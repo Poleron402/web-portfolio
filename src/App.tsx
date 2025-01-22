@@ -6,6 +6,8 @@ import Contact from './pages/Contact'
 import Header from './components/Header'
 import Projects from './pages/Projects'
 import Resume from './pages/Resume'
+import PersonalProjects from './components/PersonalProjects'
+import SchoolProjects from './components/SchoolProjects'
 
 function App() {
 
@@ -18,7 +20,10 @@ function App() {
         <Route path="/" element={<Home/>}/>
         <Route path="resume" element = {<Resume/>}/>
         <Route path="contact" element={<Contact/>}/>
-        <Route path="projects" element={<Projects/>}/>
+        <Route path="projects" element={<Projects/>}>
+          <Route path="school" element={<SchoolProjects/>}/>
+          <Route path="personal" element={<PersonalProjects/>}/>
+        </Route>
       </Routes>
      </BrowserRouter>
     </>
