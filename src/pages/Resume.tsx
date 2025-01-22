@@ -2,15 +2,15 @@ import ResumePDF from '../assets/PolinaMejiaResume.pdf'
 
 const Resume = () =>{
     const style = {
-        width:'100%',
-        height:'100vh',
+        width:'80%',
+        height:'80vh',
     }
     return(
-        <>
-        <object className="pdf h-100%" 
+        <div className='flex justify-center content-center'>
+        <object className="pdf " 
             data={ResumePDF}
             style={style}></object>
-        </>
+        </div>
         
     )
 }
