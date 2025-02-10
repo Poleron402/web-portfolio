@@ -22,7 +22,7 @@ body, html{
   transition: color 0.3s ease;
 }
 .linkClass:hover{
-  color: #98C0C7;
+  color: #acd4db;
 }
 #myName{
   color: #EEF4F5;
@@ -153,6 +153,20 @@ body, html{
 
 .icons{
   display: none;
+}
+hr{
+  border-color: rgb(20 184 166);
+}
+.eachProject{
+  display: flex;
+  align-items: center;
+  color: rgb(94 234 212);
+  justify-content: space-evenly;
+  margin-bottom: 5vh;
+  border: 2px solid  rgb(20 184 166);
+  border-radius: 20px;
+  padding: 7vmin;
+  background-color: #0a161328;
 }
 
 @media screen and (max-width: 1700px){
