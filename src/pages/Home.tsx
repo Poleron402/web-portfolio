@@ -12,10 +12,10 @@ const Home = ()=>{
                 <h2 className="font-jakarta text-teal-300 text-5xl">&gt;_ junior swe <br></br>+ web developer</h2>
                 <div className="flex my-12">
                 <a href='https://www.linkedin.com/in/polina-mejia-432080284/' target="_blank">
-                    <img src={LinkedIn} width={80} ></img>
+                    <img className="social" src={LinkedIn} width={80} ></img>
                 </a>
                 <a href='https://github.com/Poleron402' target="_blank">
-                    <img src={GH}  width={80} className="ml-24"></img>
+                    <img src={GH}  width={80} className="social ml-24"></img>
                 </a>
                 </div>
                 

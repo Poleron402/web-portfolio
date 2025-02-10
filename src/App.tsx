@@ -22,7 +22,7 @@ function App() {
         <Route path="contact" element={<Contact/>}/>
         <Route path="projects" element={<Projects/>}>
           <Route path="school" element={<SchoolProjects/>}/>
-          <Route path="personal" element={<PersonalProjects/>}/>
+          <Route index element={<PersonalProjects/>}/>
         </Route>
       </Routes>
      </BrowserRouter>

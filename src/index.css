@@ -3,6 +3,8 @@
 @tailwind utilities;
 
 body, html{
+  padding: 0;
+  margin: 0;
   height: 100%;
   width: 100%;
   background: #283632;
@@ -10,16 +12,15 @@ body, html{
   #25312e 0%, 
   #25312e 0%,
   rgba(23,36,32,1) 100%);
+}
 
+#header-full{
+  display: flex;
 }
 .linkClass{
-  color: #6D7E7C;
+  color: #809693;
   transition: color 0.3s ease;
 }
-#header #firstElem{
-  position: relative;
-}
-
 .linkClass:hover{
   color: #98C0C7;
 }
@@ -116,10 +117,51 @@ body, html{
   right: 200px;
   top: 400px;
 }
-@media screen and (max-width: 1500px){
+#burgerLink{
+  transform: scale(0.3);
+
+}
+.personalVsSchool{
+  color: #81a19e;
+  cursor: pointer;
+  padding: 10px;
+  font-size: 30px;
+  border-radius: 10px;
+  transition: color 0.3s ease-in-out;
+}
+.personalVsSchool.active{
+  color: #9ff0e4;
+  cursor: pointer;
+  padding: 10px;
+  font-size: 30px;
+  border-radius: 10px;
+  transition: color 0.3s ease-in-out;
+}
+.personalVsSchool:hover{
+  color: #9ff0e4;
+}
+#school-intro{
+  color: #6D7E7C;
+  font-size: 25px;
+}
+.social{
+  transition: transform 0.5s ease-in-out;
+}
+.social:hover{
+  transform: scale(1.2);
+}
+
+.icons{
+  display: none;
+}
+
+@media screen and (max-width: 1700px){
   #burgerDiv{
     right: auto;
-    top: 480px;
+    top: 580px;
+  }
+  #sweDevAni{
+    top: -200px;
   }
   .responsiveDiv{
     display: flex;
@@ -149,6 +191,9 @@ body, html{
     right: auto;
     top: 480px;
   }
+  #sweDevAni{
+    padding-inline: 0;
+  }
   .responsiveDiv{
     display: flex;
     justify-content: center;
@@ -158,24 +203,16 @@ body, html{
     transform: scale(0.75);
     width: 100%;
   }
-}
-
-#burgerLink{
-  transform: scale(0.3);
-}
-.personalVsSchool{
-  cursor: pointer;
-  padding: 10px;
-  font-size: 25px;
-  border-radius: 10px;
-  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
-}
-.personalVsSchool:hover{
-  background-color: #73b4aa;
-  border-radius: 10px;
-  color: #25312e;
-}
-#school-intro{
-  color: #6D7E7C;
-  font-size: 25px;
+  .icons{
+    display: block;
+    width: 100%;
+  }
+  .names{
+    display: none;
+  }
+  #header{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+  }
 }
