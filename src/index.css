@@ -126,6 +126,7 @@ body, html{
 }
 #leftAlignedText{
   margin-left: -20%;
+  margin-top: 150px;
 }
 .personalVsSchool{
   color: #81a19e;
@@ -177,6 +178,9 @@ hr{
 .responsiveDiv{
   background-color: #00000083;
   height: 100vh;
+
+  width: 100%;
+
 }
 
 @media screen and (max-width: 1700px){
@@ -240,4 +244,61 @@ hr{
     justify-content: space-evenly;
     width: 100%;
   }
+}
+
+
+/* ============= Uni Coursework ============= */ 
+#subcategory, #classes{
+  background-color: rgba(0, 0, 0, 0.63);
+}
+#projects{
+  background-color: rgba(0, 0, 0, 0.63);
+
+  height: 100vh;
+}
+#classes{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+
+}
+.courseTitle{
+  font-size: 1.7em;
+}
+.course{
+  width: 20%;
+  padding: 20px;
+  background-color: #2a626673;
+  color: #9ff0e4;
+  margin: 20px; 
+  height: 30vh;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 20px;
+  transition: all 1s ease;
+  min-width: 300px;
+  max-width: 350px;
+}
+.course:hover{
+  transform: scale(1.08);
+  box-shadow: 0px 10px 0px rgb(30, 202, 214);
+  cursor: pointer;
+}
+.projButton{
+  border: 2px solid #9ff0e4;
+  padding: 8px;
+  border-radius: 10px;
+}
+.projButton:hover{
+  background-color: #021b2cad;
+}
+.courseDesc{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 5; 
+  -webkit-box-orient: vertical;
 }

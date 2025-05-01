@@ -14,7 +14,7 @@ const Projects = ()=>{
 
         </div>
         <hr className="w-4/5 mx-auto color-teal-500"></hr>
-        <div className="flex-col justify-self-end px-32 py-20">
+        <div id="projects" className="flex-col justify-self-end px-32 py-20">
             <Outlet/>
         </div>
         
