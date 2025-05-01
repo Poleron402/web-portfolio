@@ -3,13 +3,15 @@ import ResumePDF from '../assets/PolinaMejiaResume.pdf'
 const Resume = () =>{
     const style = {
         width:'80%',
-        height:'80vh',
+        height:'90vh',
+        borderRadius: '20px',
+        backgroundColor: 'white'
     }
     return(
         <div className='flex justify-center content-center'>
-        <object className="pdf " 
-            data={ResumePDF}
-            style={style}></object>
+        <iframe className="pdf " 
+            src={`${ResumePDF}#view=Fit`}
+            style={style}></iframe>
         </div>
         
     )

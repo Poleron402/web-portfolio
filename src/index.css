@@ -248,19 +248,19 @@ hr{
 
 
 /* ============= Uni Coursework ============= */ 
-#subcategory, #classes{
+#subcategory{
   background-color: rgba(0, 0, 0, 0.63);
 }
 #projects{
   background-color: rgba(0, 0, 0, 0.63);
-
-  height: 100vh;
+  height: 100%;
+  
 }
 #classes{
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-
+  justify-content: center;
 }
 .courseTitle{
   font-size: 1.7em;
@@ -281,6 +281,7 @@ hr{
   transition: all 1s ease;
   min-width: 300px;
   max-width: 350px;
+  border: 2px solid rgb(25, 76, 82);
 }
 .course:hover{
   transform: scale(1.08);

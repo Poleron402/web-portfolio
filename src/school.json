@@ -1,58 +1,75 @@
 [
     {
-        "title": "CST300 - Major ProSeminar",
-        "description": "The class was dedicated to exploring technological trends, and figuring out how the education we are getting is going to meet the requirements of those trends." 
+        "code":"CST300",
+        "title": "Major ProSeminar",
+        "description": "The class was dedicated to exploring technological trends, and figuring out how the education we are getting is going to meet the requirements of those trends.", 
+        "projects": [
+            "https://www.youtube.com/watch?v=Ni_IDKWaYb8",
+            "src/assets/PMejiaDeepFakeEssay.pdf",
+            "src/assets/PMejiaSWEEssay.pdf"
+        ]
     },
     {
-        "title": "CST338 - Software Design",
+        "code":"CST338",
+        "title": "Software Design",
         "description": "This is an intermediate-level programming course covering techniques for developing large-scale software systems using object-oriented programming. Coverage includes software development life cycle models, requirements analysis, and graphical user interface development." 
     },
     {
-        "title": "CST 311 - Introduction to Computer Networks",
+        "code":"CST311",
+        "title": " Introduction to Computer Networks",
         "description": "Survey of Telecomm and Data Comm Technology Fundamentals, Local Area Network, Wide Area Network, Internet and internetworking protocols including TCP/IP, network security and performance, emerging industry trends such as voice over the network and high speed networking." 
     },
     {
-        "title": "CST 334 - Operating Systems",
+        "code":"CST334",
+        "title": "Operating Systems",
         "description": "CST 334 - Operating Systems taught about the use and design of modern operating systems, focusing on Linux. " 
     },
     {
-        "title": "CST 336 - Internet Programming",
+        "code":"CST336",
+        "title": "Internet Programming",
         "description": "CST336 - Internet Programming taught full-stack development using technologies like NodeJS, HTML, and CSS. The class also introduced 3d-party API integration into development." 
     },
     {
-        "title": "CST 363 - Introduction to Database Systems",
+        "code":"CST363",
+        "title": "Introduction to Database Systems",
         "description": "The class taught simple SQL database queries, RDBMS, database schemas, and backend implementation with SpringBoot." 
     },
     {
-        "title": "CST 383 - Introduction to Data Science",
+        "code":"CST383",
+        "title": "Introduction to Data Science",
         "description": "Introduction to Data Science taught advanced use cases for python data science libraries such as pandas and numpy. We had the opportunity to learn Machine Learning algorithms such as KNN, Linear Regression, Decision Trees, and more." 
     },
     {
-        "title": "CST 328 - Digital Art and Design",
+        "code":"CST328",
+        "title": "Digital Art and Design",
         "description": "CST 328 - Digital Art and Design taught the basics of color theory, the psychology behind colors, and what use cases would fit best for the type of service. Practiced applying the skills with tools like Figma, Unity, and Photoshop. " 
     },
     {
-        "title": "CST 370 - Design and Analysis of Algorithms",
+        "code":"CST370",
+        "title": "Design and Analysis of Algorithms",
         "description": "Design and Analysis of Algorithms taught common algorithms needed to successfully tackle most Leetcode-like programmatic problems." 
     },
     {
-        "title": "CST 438 - Software Engineering",
+        "code":"CST438",
+        "title": "Software Engineering",
         "description": "CST 438 - Software Engineering involved learning about best software engineering practices as well as practicing the learned paradigms in an applied setting." 
     },
     {
-        "title": "CST 462S - Race, Gender, Class in the Digital World",
+        "code":"CST462S",
+        "title": "Race, Gender, Class in the Digital World",
         "description": "The class dedicated to exploring social trends, and figuring out how the education we are getting is going affect and/or improve the state of those trends." 
     },
     {
-        "title": "CST 489 - Capstone Project Planning",
+        "code":"CST489",
+        "title": "Capstone Project Planning",
         "description": "Preparation to the capstone class - planning and coordination" 
     },
     {
-        "title": "CST329 - Reasoning with Logic",
+        "title": "Reasoning with Logic",
         "description": "Class teaching to use logic to describe and assess arguments." 
     },
     {
-        "title": "CST 499 - Computer Science Capstone",
+        "title": "Computer Science Capstone",
         "description": "CST 499 - Computer Science Capstone is dedicated fully to the creation of full-fledged application that is a capstone of the C.S. program at CSUMB" 
     }
 ]
