@@ -7,15 +7,17 @@ body, html{
   margin: 0;
   height: 100%;
   width: 100%;
-  background: #283632;
-  background: radial-gradient(circle 400px at 80% 60%, 
-  #25312e 0%, 
-  #25312e 0%,
-  rgba(23,36,32,1) 100%);
+  background-color: #161418;
+  background-image: url('assets/image-1.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+
 }
 
 #header-full{
   display: flex;
+  background-color: #1614187e;
 }
 .linkClass{
   color: #809693;
@@ -114,12 +116,16 @@ body, html{
 
 #burgerDiv{
   position: absolute;
-  right: 200px;
+  right: 400px;
   top: 400px;
 }
 #burgerLink{
-  transform: scale(0.3);
-
+  width: 50px;
+  margin: 20px;
+  margin-left: 60px;
+}
+#leftAlignedText{
+  margin-left: -20%;
 }
 .personalVsSchool{
   color: #81a19e;
@@ -150,10 +156,10 @@ body, html{
 .social:hover{
   transform: scale(1.2);
 }
-
+/* 
 .icons{
   display: none;
-}
+} */
 hr{
   border-color: rgb(20 184 166);
 }
@@ -168,6 +174,10 @@ hr{
   padding: 7vmin;
   background-color: #0a161328;
 }
+.responsiveDiv{
+  background-color: #00000083;
+  height: 100vh;
+}
 
 @media screen and (max-width: 1700px){
   #burgerDiv{
@@ -178,6 +188,7 @@ hr{
     top: -200px;
   }
   .responsiveDiv{
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;

@@ -1,0 +1,50 @@
+[
+    {
+        "title": "CST300 - Major ProSeminar",
+        "description": "The class was dedicated to exploring technological trends, and figuring out how the education we are getting is going to meet the requirements of those trends." 
+    },
+    {
+        "title": "CST338 - Software Design",
+        "description": "This is an intermediate-level programming course covering techniques for developing large-scale software systems using object-oriented programming. Coverage includes software development life cycle models, requirements analysis, and graphical user interface development." 
+    },
+    {
+        "title": "CST 311 - Introduction to Computer Networks",
+        "description": "Survey of Telecomm and Data Comm Technology Fundamentals, Local Area Network, Wide Area Network, Internet and internetworking protocols including TCP/IP, network security and performance, emerging industry trends such as voice over the network and high speed networking." 
+    },
+    {
+        "title": "CST 334 - Operating Systems",
+        "description": "CST 334 - Operating Systems taught about the use and design of modern operating systems, focusing on Linux. " 
+    },
+    {
+        "title": "CST 336 - Internet Programming",
+        "description": "CST336 - Internet Programming taught full-stack development using technologies like NodeJS, HTML, and CSS. The class also introduced 3d-party API integration into development." 
+    },
+    {
+        "title": "CST 363 - Introduction to Database Systems",
+        "description": "The class taught simple SQL database queries, RDBMS, database schemas, and backend implementation with SpringBoot." 
+    },
+    {
+        "title": "CST 370 - Design and Analysis of Algorithms",
+        "description": "Design and Analysis of Algorithms taught common algorithms needed to successfully tackle most Leetcode-like programmatic problems." 
+    },
+    {
+        "title": "CST 438 - Software Engineering",
+        "description": "CST 438 - Software Engineering involved reading extensive literature about software engioneering processes and practices, and taught adjusting effectively to limited documentation regarding technical requirements." 
+    },
+    {
+        "title": "CST 462S - Race, Gender, Class in the Digital World",
+        "description": "The class dedicated to exploring social trends, and figuring out how the education we are getting is going affect and/or improve the state of those trends." 
+    },
+    {
+        "title": "CST 489 - Capstone Project Planning",
+        "description": "Preparation to the capstone class - planning and coordination" 
+    },
+    {
+        "title": "CST329 - Reasoning with Logic",
+        "description": "Class teaching to use logic to describe and assess arguments." 
+    },
+    {
+        "title": "CST 499 - Computer Science Capstone",
+        "description": "CST 499 - Computer Science Capstone is dedicated fully to the creation of full-fledged application that is a capstone of the C.S. program at CSUMB" 
+    }
+]
