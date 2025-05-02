@@ -30,7 +30,8 @@ const SchoolProjects = () =>{
             ):(
                 <div>
                     <div id="leftAlign">
-                        <button className="backButton" onClick={()=>setPickedCourse(null)}><span className='inLine'><MoveLeft/> Back To Courses</span></button>
+                    <h1>{pickedCourse.title}</h1>
+                    <button className="backButton" onClick={()=>setPickedCourse(null)}><span className='inLine'><MoveLeft/> Back To Courses</span></button>
                     </div>
                     <div id='classes'>
                         <IndividualSchoolProject project={pickedCourse}/>

@@ -1,10 +1,10 @@
-import { useEffect, useState } from "react"
+import { JSXElementConstructor, ReactElement, ReactNode, useEffect, useState } from "react"
 import { SchoolProject } from "../utils"
 import YT from '../assets/yt_logo_mono_dark.png'
 import GH from '../assets/github-mark-white.png'
 
 interface IndividualSchoolProjectProps{
-    project: SchoolProject
+    project: SchoolProject,
 }
 const IndividualSchoolProject: React.FC<IndividualSchoolProjectProps> = ({project})=>{
     let [myProjectFiles, setMyProjectFiles] = useState<any[]>()
@@ -42,18 +42,20 @@ const IndividualSchoolProject: React.FC<IndividualSchoolProjectProps> = ({projec
             <iframe key={idx} className="classProject"  src={`${proj}#fit=Fit`}></iframe>
        )
        )}
-       <br></br>
        {myProjectLinks&&myProjectLinks.map((proj, idx)=>(
             <div className="projectLink">
                 <h1>{proj.title}</h1>
                 <p className='courseDesc'>{proj.description}</p>
+                <div className="multipleButtons">
                 {
-                    proj.type=='YouTube'?
-                    <a target="_blank" className="awayButton" href={proj.link}><img width={150} src={YT}></img></a>
-                    :
-                    <a target="_blank" className="awayButton" href={proj.link}>{GH}{proj.type}</a>
-                    
+                    proj.links.map((mylink: { type: string; link: string}, index: any)=>{
+                        return mylink.type=='YouTube'?(
+                        <div className="buttonAlignment"><a target="_blank" className="awayButton" href={mylink.link}><img width={120} src={YT}></img></a></div>
+                        ):(
+                        <a target="_blank" className="awayButton" href={mylink.link}><span className="inLine"><img width={40} src={GH}/></span></a>
+                    )})
                 }
+                </div>
             </div>
         )
         )}

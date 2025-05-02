@@ -12,9 +12,11 @@ body, html{
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-
+  color:#9FF0E4;
 }
-
+h1{
+  font-size: 2em;
+}
 #header-full{
   display: flex;
   background-color: #1614187e;
@@ -299,6 +301,7 @@ hr{
 .projButton, .backButton{
   border: 2px solid #9ff0e4;
   padding: 8px;
+  width: 170px;
   border-radius: 10px;
   color: #9ff0e4;
 }
@@ -319,6 +322,7 @@ hr{
 #leftAlign{
   width: 100%;
   display: flex;
+  flex-direction: column;
   justify-content: start;
   margin-bottom: 3vh;
 }
@@ -333,8 +337,16 @@ hr{
 }
 .projectLink{
   align-items: center;
-  
 }
 .projectLink>h1{
   font-size: 1.5em;
+}
+.multipleButtons{
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.buttonAlignment{
+  display: flex;
+  align-items: center;
 }

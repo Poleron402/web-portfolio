@@ -5,9 +5,10 @@
         "description": "The class was dedicated to exploring technological trends, and figuring out how the education we are getting is going to meet the requirements of those trends.", 
         "projects": [
             {
-                "link":"https://www.youtube.com/watch?v=Ni_IDKWaYb8",
+                "links": [
+                    {"link": "https://www.youtube.com/watch?v=Ni_IDKWaYb8",
+                    "type": "YouTube"}],
                 "title": "Introductory Quantum Computing Presentation",
-                "type": "YouTube",
                 "description": "One of the video created to effectively explain a selected topic."
             },
             "PMejiaDeepFakeEssay.pdf",
@@ -18,15 +19,21 @@
         "code":"CST338",
         "title": "Software Design",
         "description": "This is an intermediate-level programming course covering techniques for developing large-scale software systems using object-oriented programming. Coverage includes software development life cycle models, requirements analysis, and graphical user interface development." ,
-              "projects": [
+            "projects": [
             {
-                "link":"https://www.youtube.com/watch?v=Ni_IDKWaYb8",
-                "title": "Introductory Quantum Computing Presentation",
-                "type": "YouTube",
-                "description": "One of the video created to effectively explain a selected topic."
-            },
-            "PMejiaDeepFakeEssay.pdf",
-            "PMejiaSWEEssay.pdf"
+                "links":[
+                    {
+                        "link": "https://www.youtube.com/watch?v=Oz_JlrlvsZA",
+                        "type": "YouTube"
+                    },
+                    {
+                        "link": "https://github.com/Poleron402/sb",
+                        "type": "GitHub"
+                    }
+                ],
+                "title": "ChillJava",
+                "description": "My first Android application created for a final project. The application started as a Starbucks mock idea, which I implemented in concept, but would not work in practice."
+            }
         ]
     
     },
@@ -34,15 +41,38 @@
         "code":"CST311",
         "title": " Introduction to Computer Networks",
         "description": "Survey of Telecomm and Data Comm Technology Fundamentals, Local Area Network, Wide Area Network, Internet and internetworking protocols including TCP/IP, network security and performance, emerging industry trends such as voice over the network and high speed networking." ,
-                      "projects": [
+        "projects": [
             {
-                "link":"https://www.youtube.com/watch?v=Ni_IDKWaYb8",
-                "title": "Introductory Quantum Computing Presentation",
-                "type": "YouTube",
-                "description": "One of the video created to effectively explain a selected topic."
+                "links":[
+                    {
+                        "link": "https://github.com/Poleron402/PA2_UDP_Pinger",
+                        "type": "GitHub"
+                    }
+                ],
+                "title": "Python UDP Pinger",
+                "description": "As a team and under coursework instructions, we implemented a UDP pinger with Python."
             },
-            "PMejiaDeepFakeEssay.pdf",
-            "PMejiaSWEEssay.pdf"
+            {
+                "links":[
+                    {
+                        "link": "https://github.com/Poleron402/PA3_CHAT",
+                        "type": "GitHub"
+                    }
+                ],
+                "title": "TCP Chat",
+                "description": "As a team, we implemented a TCP chat, coded in Python, that can be ran in Mininet."
+            },
+            {
+                "links":[
+                    {
+                        "link": "https://github.com/Poleron402/PA4_SUBNET_ADDRESSING",
+                        "type": "GitHub"
+                    }
+                ],
+                "title": "TCP Chat, But Better",
+                "description": "A culmination of the class, where we applied both programming skills and conceptual knowledge to refine the TCP chat."
+            }
+
         ]
     
     },
@@ -50,15 +80,21 @@
         "code":"CST334",
         "title": "Operating Systems",
         "description": "CST 334 - Operating Systems taught about the use and design of modern operating systems, focusing on Linux. " ,
-                      "projects": [
+        "projects": [
             {
-                "link":"https://www.youtube.com/watch?v=Ni_IDKWaYb8",
-                "title": "Introductory Quantum Computing Presentation",
-                "type": "YouTube",
-                "description": "One of the video created to effectively explain a selected topic."
-            },
-            "PMejiaDeepFakeEssay.pdf",
-            "PMejiaSWEEssay.pdf"
+                "links":[
+                    {
+                        "link": "https://www.youtube.com/watch?v=Oz_JlrlvsZA",
+                        "type": "YouTube"
+                    },
+                    {
+                        "link": "https://github.com/Poleron402/sb",
+                        "type": "GitHub"
+                    }
+                ],
+                "title": "ChillJava",
+                "description": "My first Android application created for a final project."
+            }
         ]
     
     },
@@ -66,12 +102,20 @@
         "code":"CST336",
         "title": "Internet Programming",
         "description": "CST336 - Internet Programming taught full-stack development using technologies like NodeJS, HTML, and CSS. The class also introduced 3d-party API integration into development." ,
-                      "projects": [
+        "projects": [
             {
-                "link":"https://www.youtube.com/watch?v=Ni_IDKWaYb8",
-                "title": "Introductory Quantum Computing Presentation",
-                "type": "YouTube",
-                "description": "One of the video created to effectively explain a selected topic."
+                "links":[
+                    {
+                        "link": "https://www.youtube.com/watch?v=Oz_JlrlvsZA",
+                        "type": "YouTube"
+                    },
+                    {
+                        "link": "https://github.com/Poleron402/sb",
+                        "type": "GitHub"
+                    }
+                ],
+                "title": "ChillJava",
+                "description": "My first Android application created for a final project."
             },
             "PMejiaDeepFakeEssay.pdf",
             "PMejiaSWEEssay.pdf"
@@ -82,15 +126,17 @@
         "code":"CST363",
         "title": "Introduction to Database Systems",
         "description": "The class taught simple SQL database queries, RDBMS, database schemas, and backend implementation with SpringBoot." ,
-                      "projects": [
+        "projects": [
             {
-                "link":"https://www.youtube.com/watch?v=Ni_IDKWaYb8",
-                "title": "Introductory Quantum Computing Presentation",
-                "type": "YouTube",
-                "description": "One of the video created to effectively explain a selected topic."
-            },
-            "PMejiaDeepFakeEssay.pdf",
-            "PMejiaSWEEssay.pdf"
+                "links":[
+                    {
+                        "link": "https://github.com/Poleron402/lab19",
+                        "type": "GitHub"
+                    }
+                ],
+                "title": "Lab19",
+                "description": "Lab 19 was part of the assignment where we were to design and implement a pharmaceutical prescription management system using MySQL and SpringBoot."
+            }
         ]
     
     },
@@ -98,12 +144,20 @@
         "code":"CST383",
         "title": "Introduction to Data Science",
         "description": "Introduction to Data Science taught advanced use cases for python data science libraries such as pandas and numpy. We had the opportunity to learn Machine Learning algorithms such as KNN, Linear Regression, Decision Trees, and more." ,
-                      "projects": [
+        "projects": [
             {
-                "link":"https://www.youtube.com/watch?v=Ni_IDKWaYb8",
-                "title": "Introductory Quantum Computing Presentation",
-                "type": "YouTube",
-                "description": "One of the video created to effectively explain a selected topic."
+                "links":[
+                    {
+                        "link": "https://www.youtube.com/watch?v=Oz_JlrlvsZA",
+                        "type": "YouTube"
+                    },
+                    {
+                        "link": "https://github.com/Poleron402/sb",
+                        "type": "GitHub"
+                    }
+                ],
+                "title": "ChillJava",
+                "description": "My first Android application created for a final project."
             },
             "PMejiaDeepFakeEssay.pdf",
             "PMejiaSWEEssay.pdf"
@@ -114,12 +168,20 @@
         "code":"CST328",
         "title": "Digital Art and Design",
         "description": "CST 328 - Digital Art and Design taught the basics of color theory, the psychology behind colors, and what use cases would fit best for the type of service. Practiced applying the skills with tools like Figma, Unity, and Photoshop. " ,
-                      "projects": [
+        "projects": [
             {
-                "link":"https://www.youtube.com/watch?v=Ni_IDKWaYb8",
-                "title": "Introductory Quantum Computing Presentation",
-                "type": "YouTube",
-                "description": "One of the video created to effectively explain a selected topic."
+                "links":[
+                    {
+                        "link": "https://www.youtube.com/watch?v=Oz_JlrlvsZA",
+                        "type": "YouTube"
+                    },
+                    {
+                        "link": "https://github.com/Poleron402/sb",
+                        "type": "GitHub"
+                    }
+                ],
+                "title": "ChillJava",
+                "description": "My first Android application created for a final project."
             },
             "PMejiaDeepFakeEssay.pdf",
             "PMejiaSWEEssay.pdf"
@@ -130,12 +192,20 @@
         "code":"CST370",
         "title": "Design and Analysis of Algorithms",
         "description": "Design and Analysis of Algorithms taught common algorithms needed to successfully tackle most Leetcode-like programmatic problems." ,
-                      "projects": [
+        "projects": [
             {
-                "link":"https://www.youtube.com/watch?v=Ni_IDKWaYb8",
-                "title": "Introductory Quantum Computing Presentation",
-                "type": "YouTube",
-                "description": "One of the video created to effectively explain a selected topic."
+                "links":[
+                    {
+                        "link": "https://www.youtube.com/watch?v=Oz_JlrlvsZA",
+                        "type": "YouTube"
+                    },
+                    {
+                        "link": "https://github.com/Poleron402/sb",
+                        "type": "GitHub"
+                    }
+                ],
+                "title": "ChillJava",
+                "description": "My first Android application created for a final project."
             },
             "PMejiaDeepFakeEssay.pdf",
             "PMejiaSWEEssay.pdf"
@@ -146,12 +216,20 @@
         "code":"CST438",
         "title": "Software Engineering",
         "description": "CST 438 - Software Engineering involved learning about best software engineering practices as well as practicing the learned paradigms in an applied setting." ,
-                      "projects": [
+        "projects": [
             {
-                "link":"https://www.youtube.com/watch?v=Ni_IDKWaYb8",
-                "title": "Introductory Quantum Computing Presentation",
-                "type": "YouTube",
-                "description": "One of the video created to effectively explain a selected topic."
+                "links":[
+                    {
+                        "link": "https://www.youtube.com/watch?v=Oz_JlrlvsZA",
+                        "type": "YouTube"
+                    },
+                    {
+                        "link": "https://github.com/Poleron402/sb",
+                        "type": "GitHub"
+                    }
+                ],
+                "title": "ChillJava",
+                "description": "My first Android application created for a final project."
             },
             "PMejiaDeepFakeEssay.pdf",
             "PMejiaSWEEssay.pdf"
@@ -162,12 +240,20 @@
         "code":"CST462S",
         "title": "Race, Gender, Class in the Digital World",
         "description": "The class dedicated to exploring social trends, and figuring out how the education we are getting is going affect and/or improve the state of those trends." ,
-                      "projects": [
+        "projects": [
             {
-                "link":"https://www.youtube.com/watch?v=Ni_IDKWaYb8",
-                "title": "Introductory Quantum Computing Presentation",
-                "type": "YouTube",
-                "description": "One of the video created to effectively explain a selected topic."
+                "links":[
+                    {
+                        "link": "https://www.youtube.com/watch?v=Oz_JlrlvsZA",
+                        "type": "YouTube"
+                    },
+                    {
+                        "link": "https://github.com/Poleron402/sb",
+                        "type": "GitHub"
+                    }
+                ],
+                "title": "ChillJava",
+                "description": "My first Android application created for a final project."
             },
             "PMejiaDeepFakeEssay.pdf",
             "PMejiaSWEEssay.pdf"
@@ -178,12 +264,20 @@
         "code":"CST489",
         "title": "Capstone Project Planning",
         "description": "Preparation to the capstone class - planning and coordination" ,
-                      "projects": [
+        "projects": [
             {
-                "link":"https://www.youtube.com/watch?v=Ni_IDKWaYb8",
-                "title": "Introductory Quantum Computing Presentation",
-                "type": "YouTube",
-                "description": "One of the video created to effectively explain a selected topic."
+                "links":[
+                    {
+                        "link": "https://www.youtube.com/watch?v=Oz_JlrlvsZA",
+                        "type": "YouTube"
+                    },
+                    {
+                        "link": "https://github.com/Poleron402/sb",
+                        "type": "GitHub"
+                    }
+                ],
+                "title": "ChillJava",
+                "description": "My first Android application created for a final project."
             },
             "PMejiaDeepFakeEssay.pdf",
             "PMejiaSWEEssay.pdf"
@@ -194,12 +288,20 @@
         "code": "CST329",
         "title": "Reasoning with Logic",
         "description": "Class teaching to use logic to describe and assess arguments." ,
-                      "projects": [
+        "projects": [
             {
-                "link":"https://www.youtube.com/watch?v=Ni_IDKWaYb8",
-                "title": "Introductory Quantum Computing Presentation",
-                "type": "YouTube",
-                "description": "One of the video created to effectively explain a selected topic."
+                "links":[
+                    {
+                        "link": "https://www.youtube.com/watch?v=Oz_JlrlvsZA",
+                        "type": "YouTube"
+                    },
+                    {
+                        "link": "https://github.com/Poleron402/sb",
+                        "type": "GitHub"
+                    }
+                ],
+                "title": "ChillJava",
+                "description": "My first Android application created for a final project."
             },
             "PMejiaDeepFakeEssay.pdf",
             "PMejiaSWEEssay.pdf"
@@ -210,12 +312,20 @@
         "code": "CST499",
         "title": "Computer Science Capstone",
         "description": "CST 499 - Computer Science Capstone is dedicated fully to the creation of full-fledged application that is a capstone of the C.S. program at CSUMB",
-              "projects": [
+        "projects": [
             {
-                "link":"https://www.youtube.com/watch?v=Ni_IDKWaYb8",
-                "title": "Introductory Quantum Computing Presentation",
-                "type": "YouTube",
-                "description": "One of the video created to effectively explain a selected topic."
+                "links":[
+                    {
+                        "link": "https://www.youtube.com/watch?v=Oz_JlrlvsZA",
+                        "type": "YouTube"
+                    },
+                    {
+                        "link": "https://github.com/Poleron402/sb",
+                        "type": "GitHub"
+                    }
+                ],
+                "title": "ChillJava",
+                "description": "My first Android application created for a final project."
             },
             "PMejiaDeepFakeEssay.pdf",
             "PMejiaSWEEssay.pdf"
