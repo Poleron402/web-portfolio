@@ -151,11 +151,11 @@ body, html{
   color: #6D7E7C;
   font-size: 25px;
 }
-.social{
+.social, .awayButton{
   transition: transform 0.5s ease-in-out;
 }
-.social:hover{
-  transform: scale(1.2);
+.social:hover, .awayButton:hover{
+  transform: scale(1.1);
 }
 /* 
 .icons{
@@ -254,18 +254,25 @@ hr{
 #projects{
   background-color: rgba(0, 0, 0, 0.63);
   height: 100%;
-  
+  width: 100%
 }
 #classes{
+  position: relative;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: center;
+  width: 100%;
+}
+.classProject{
+  width: 600px;
+  height: 60vh;
+  margin: 10px;
 }
 .courseTitle{
   font-size: 1.7em;
 }
-.course{
+.course, .projectLink{
   width: 20%;
   padding: 20px;
   background-color: #2a626673;
@@ -287,19 +294,47 @@ hr{
   transform: scale(1.08);
   box-shadow: 0px 10px 0px rgb(30, 202, 214);
   cursor: pointer;
+  border: 2px solid rgb(30, 202, 214);
 }
-.projButton{
+.projButton, .backButton{
   border: 2px solid #9ff0e4;
   padding: 8px;
   border-radius: 10px;
+  color: #9ff0e4;
 }
 .projButton:hover{
   background-color: #021b2cad;
 }
+
 .courseDesc{
   overflow: hidden;
   text-overflow: ellipsis;
   display: -webkit-box;
   -webkit-line-clamp: 5; 
   -webkit-box-orient: vertical;
+}
+.inLine{
+  display: flex;
+}
+#leftAlign{
+  width: 100%;
+  display: flex;
+  justify-content: start;
+  margin-bottom: 3vh;
+}
+.projectLink{
+  color: #9ff0e4;
+}
+.awayButton{
+  font-size: 1.5em;
+  padding: 8px;
+  border: 2px solid #9ff0e4;
+  border-radius: 20px;
+}
+.projectLink{
+  align-items: center;
+  
+}
+.projectLink>h1{
+  font-size: 1.5em;
 }
