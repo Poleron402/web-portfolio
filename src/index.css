@@ -19,7 +19,7 @@ h1{
 }
 #header-full{
   display: flex;
-  background-color: #1614187e;
+  background-color: #1814187e;
 }
 .linkClass{
   color: #809693;
@@ -318,6 +318,7 @@ hr{
 }
 .inLine{
   display: flex;
+  align-items: flex-end;
 }
 #leftAlign{
   width: 100%;
@@ -349,4 +350,49 @@ hr{
 .buttonAlignment{
   display: flex;
   align-items: center;
+}
+
+
+/* =============== Terminal =============== */
+
+#term{
+  width: 80%;
+  height: 600px;
+  padding: 10px;
+  overflow-y: scroll;
+  scrollbar-color: rgb(32, 3, 37) rgba(137, 41, 150, 0.596);
+  scrollbar-width: thin;
+  background-color: rgba(128, 0, 128, 0.493);
+}
+
+#comments{
+  color: #33ff00;
+  margin-bottom: 15px;
+}
+
+#termInput{
+  background-color: transparent;
+  /* border-left: 1px solid #9ff0e4; */
+  /* animation: cursor 1s step-end infinite; */
+}
+#termInput:focus{
+  outline: none;
+}
+@keyframes cursor{
+  50%{
+    border-color: transparent;
+  }
+}
+#termHeader{
+  width: 80%;
+  background-color: #191a1d;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px 20px 0px 0px;
+}
+
+.dangerousHTML{
+  color: #eb50ff;
 }

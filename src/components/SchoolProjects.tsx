@@ -1,13 +1,13 @@
 import { useState, useEffect } from 'react'
 import courses from '../school.json'
-import { useNavigate } from 'react-router'
 import IndividualSchoolProject from '../pages/IndividualSchoolProject'
-import { SchoolProject } from '../utils'
+import { Course } from '../utils'
 import { MoveLeft } from 'lucide-react'
+import MyTerminal from './MyTerminal'
 const SchoolProjects = () =>{
 
     let [classes, setClasses] = useState(courses)
-    let [pickedCourse, setPickedCourse] = useState<SchoolProject|null>(null)
+    let [pickedCourse, setPickedCourse] = useState<Course|null>(null)
 
     useEffect(()=>{
         setClasses(courses)
@@ -33,9 +33,17 @@ const SchoolProjects = () =>{
                     <h1>{pickedCourse.title}</h1>
                     <button className="backButton" onClick={()=>setPickedCourse(null)}><span className='inLine'><MoveLeft/> Back To Courses</span></button>
                     </div>
-                    <div id='classes'>
-                        <IndividualSchoolProject project={pickedCourse}/>
-                    </div>
+                    {
+                        pickedCourse.code !== 'CST334'?
+                        (
+                            <div id='classes'>
+                                <IndividualSchoolProject project={pickedCourse}/>
+                            </div>
+                        ) : (
+                            <MyTerminal project={pickedCourse}/>
+                        )                       
+                    }
+                    
                 </div>
             )
         }

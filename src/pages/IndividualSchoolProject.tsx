@@ -1,10 +1,10 @@
-import { JSXElementConstructor, ReactElement, ReactNode, useEffect, useState } from "react"
-import { SchoolProject } from "../utils"
+import { useEffect, useState } from "react"
+import { Course } from "../utils"
 import YT from '../assets/yt_logo_mono_dark.png'
 import GH from '../assets/github-mark-white.png'
 
 interface IndividualSchoolProjectProps{
-    project: SchoolProject,
+    project: Course,
 }
 const IndividualSchoolProject: React.FC<IndividualSchoolProjectProps> = ({project})=>{
     let [myProjectFiles, setMyProjectFiles] = useState<any[]>()
