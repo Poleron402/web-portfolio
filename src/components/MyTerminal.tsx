@@ -26,10 +26,13 @@ const MyTerminal: React.FC<IndividualSchoolProjectProps> = ({project})=>{
                          setCommand("")
                          break;
                 case "ls":
-
                     for (const proj of projects){
-                        returnString += proj.title+" "
+                        if (typeof proj !== "string") {
+
+                            returnString += proj.title+" "
+                        }
                     }
+                    
                     setHistory((prevItems)=> [...prevItems, {command: command,
                         result: returnString}])
                         setCommand("")
@@ -38,8 +41,8 @@ const MyTerminal: React.FC<IndividualSchoolProjectProps> = ({project})=>{
 
 
                     for (const proj of projects){
-                        if (strArgument === proj.title){
-                            returnString += proj.description+" "
+                        if (typeof proj !== "string" && strArgument === proj.title){
+                                returnString += proj.description+" "
                         }
                         
                     }
@@ -50,7 +53,7 @@ const MyTerminal: React.FC<IndividualSchoolProjectProps> = ({project})=>{
                 case "links":
                     
                     for (const proj of projects){
-                        if (strArgument === proj.title){
+                        if (typeof proj !== "string" && strArgument === proj.title){
                             for (const link of proj.links){
                                 returnString+=`<a class="terminalLinks" target="_blank" href=${link.link}>➜ ${proj.title}_${link.type}</a>&nbsp;&nbsp;`
                             }
