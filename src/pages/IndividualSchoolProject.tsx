@@ -1,17 +1,16 @@
 import { useEffect, useState } from "react"
-import { Course } from "../utils"
+import { Course,ProjectList } from "../utils"
 import YT from '../assets/yt_logo_mono_dark.png'
-import GH from '../assets/github-mark-white.png'
-
+import GH from '../assets/github-mark-white.png' 
 interface IndividualSchoolProjectProps{
     project: Course,
 }
 const IndividualSchoolProject: React.FC<IndividualSchoolProjectProps> = ({project})=>{
-    let [myProjectFiles, setMyProjectFiles] = useState<any[]>()
-    let [myProjectLinks, setMyProjectLinks] = useState<any[]>()
+    const [myProjectFiles, setMyProjectFiles] = useState<string[]>()
+    const [myProjectLinks, setMyProjectLinks] = useState<ProjectList[]>()
     const loadModules = async()=>{
-        const loadedModules: any[] = []
-        const loadedLinks: any[] = []
+        const loadedModules: string[] = []
+        const loadedLinks: ProjectList[] = []
         for (const link of project.projects){
             if (typeof link ==="string" && link.endsWith('.pdf')){
                 try {
@@ -19,10 +18,10 @@ const IndividualSchoolProject: React.FC<IndividualSchoolProjectProps> = ({projec
                     );
                     loadedModules.push(mod.default);
                 }catch(err){
-                    alert("Failed to import some modules")
+                    alert(`Failed to import some modules: ${err}`)
                 }
             }else{
-                loadedLinks.push(link)
+                loadedLinks.push(link as ProjectList)
             }
         }
 
@@ -43,16 +42,16 @@ const IndividualSchoolProject: React.FC<IndividualSchoolProjectProps> = ({projec
        )
        )}
        {myProjectLinks&&myProjectLinks.map((proj, idx)=>(
-            <div className="projectLink">
+            <div key={idx} className="projectLink">
                 <h1>{proj.title}</h1>
                 <p className='courseDesc'>{proj.description}</p>
                 <div className="multipleButtons">
                 {
-                    proj.links.map((mylink: { type: string; link: string}, index: any)=>{
+                    proj.links.map((mylink: { type: string; link: string}, index: number)=>{
                         return mylink.type=='YouTube'?(
-                        <div className="buttonAlignment"><a target="_blank" className="awayButton" href={mylink.link}><img width={120} src={YT}></img></a></div>
+                        <div key={index} className="buttonAlignment"><a target="_blank" className="awayButton" href={mylink.link}><img width={120} src={YT}></img></a></div>
                         ):(
-                        <a target="_blank" className="awayButton" href={mylink.link}><span className="inLine"><img width={40} src={GH}/></span></a>
+                        <a key={index} target="_blank" className="awayButton" href={mylink.link}><span className="inLine"><img width={40} src={GH}/></span></a>
                     )})
                 }
                 </div>

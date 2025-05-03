@@ -3,7 +3,7 @@ export interface Course {
     code: string;
     title: string;
     description: string;
-    projects: any[];
+    projects: (ProjectList | string)[];
 }
 
 
@@ -13,7 +13,12 @@ export interface TerminalHistory {
 }
 
 export interface ProjectList{
-    links: any[];
+    links: Links[];
     title: string;
     description: string;
+}
+
+export interface Links{
+    link: string;
+    type: string;
 }

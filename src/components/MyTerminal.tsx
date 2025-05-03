@@ -1,6 +1,6 @@
 
-import {useEffect, useState, KeyboardEvent } from "react"
-import {Course, TerminalHistory, ProjectList } from "../utils"
+import {useState, KeyboardEvent } from "react"
+import {Course, TerminalHistory } from "../utils"
 import { Terminal } from "lucide-react"
 interface IndividualSchoolProjectProps{
     project:Course,
@@ -9,10 +9,11 @@ const MyTerminal: React.FC<IndividualSchoolProjectProps> = ({project})=>{
     
     const [history, setHistory] = useState<TerminalHistory[]>([])
     const [command, setCommand] = useState<string>("")
-    const [projects, setProjects] = useState<ProjectList[]>(project.projects)
+    const projects = project.projects
     const handleKeyDown = (e: KeyboardEvent<HTMLInputElement>) =>{
-        let [myCommand, ...argument] = command.split(" ")
-        let strArgument = argument.join(' ')
+        const [myCommand, ...argument] = command.split(" ")
+        const strArgument = argument.join(' ')
+        let returnString:string = ""
         if (e.key === 'Enter'){
             switch (myCommand){
                 case "clear":
@@ -25,9 +26,8 @@ const MyTerminal: React.FC<IndividualSchoolProjectProps> = ({project})=>{
                          setCommand("")
                          break;
                 case "ls":
-                    let returnString:string = ""
 
-                    for (let proj of projects){
+                    for (const proj of projects){
                         returnString += proj.title+" "
                     }
                     setHistory((prevItems)=> [...prevItems, {command: command,
@@ -35,30 +35,30 @@ const MyTerminal: React.FC<IndividualSchoolProjectProps> = ({project})=>{
                         setCommand("")
                         break;
                 case "cat":
-                    let descString:string = ""
 
-                    for (let proj of projects){
+
+                    for (const proj of projects){
                         if (strArgument === proj.title){
-                            descString += proj.description+" "
+                            returnString += proj.description+" "
                         }
                         
                     }
                     setHistory((prevItems)=> [...prevItems, {command: command,
-                        result: descString}])
+                        result: returnString}])
                         setCommand("")
                         break;
                 case "links":
-                    let linksString:string = ""
-                    for (let proj of projects){
+                    
+                    for (const proj of projects){
                         if (strArgument === proj.title){
-                            for (let link of proj.links){
-                                linksString+=`<a class="terminalLinks" target="_blank" href=${link.link}>➜ ${proj.title}_${link.type}</a>&nbsp;&nbsp;`
+                            for (const link of proj.links){
+                                returnString+=`<a class="terminalLinks" target="_blank" href=${link.link}>➜ ${proj.title}_${link.type}</a>&nbsp;&nbsp;`
                             }
                             
                         }
                     }
                     setHistory((prevItems)=> [...prevItems, {command: command,
-                        result: linksString}])
+                        result: returnString}])
                         setCommand("")
                         break;
                 default:
@@ -83,12 +83,12 @@ const MyTerminal: React.FC<IndividualSchoolProjectProps> = ({project})=>{
                 </p>
             </div>
             {history&& history.map((hist, idx)=>(
-                <>
-                <div className="inLine">
-                    <p>🌸 pol@polsportfolio $ &nbsp; {hist.command}</p> <br></br>
-                </div>
+                <div key={idx}>
+                    <div className="inLine">
+                        <p>🌸 pol@polsportfolio $ &nbsp; {hist.command}</p> <br></br>
+                    </div>
                     <div className="dangerousHTML" dangerouslySetInnerHTML={{ __html: hist.result }}/>
-                </>
+                </div>
             ))}
             <div className="inLine">
                 <p>🌸 pol@polsportfolio  $ &nbsp;</p> 

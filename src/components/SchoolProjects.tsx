@@ -6,8 +6,8 @@ import { MoveLeft } from 'lucide-react'
 import MyTerminal from './MyTerminal'
 const SchoolProjects = () =>{
 
-    let [classes, setClasses] = useState(courses)
-    let [pickedCourse, setPickedCourse] = useState<Course|null>(null)
+    const [classes, setClasses] = useState(courses)
+    const [pickedCourse, setPickedCourse] = useState<Course|null>(null)
 
     useEffect(()=>{
         setClasses(courses)
@@ -17,11 +17,11 @@ const SchoolProjects = () =>{
         {!pickedCourse? (
             <div id='classes'>
             {
-                classes && classes.map((course, idx)=>(
+                classes && classes.map((course)=>(
                 <div key={course.code} className="course">
                     <h4 className="courseTitle">{course.title}</h4>
                     <p className='courseDesc'>{course.description}</p>
-                    <button className="projButton" onClick={_=>setPickedCourse(course)}>View Projects</button>
+                    <button className="projButton" onClick={() =>setPickedCourse(course)}>View Projects</button>
                 </div>
             
             ))
