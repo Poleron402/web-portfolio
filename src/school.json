@@ -102,23 +102,14 @@
         "code":"CST336",
         "title": "Internet Programming",
         "description": "CST336 - Internet Programming taught full-stack development using technologies like NodeJS, HTML, and CSS. The class also introduced 3d-party API integration into development." ,
-        "projects": [
+          "projects": [
             {
                 "links":[
-                    {
-                        "link": "https://www.youtube.com/watch?v=Oz_JlrlvsZA",
-                        "type": "YouTube"
-                    },
-                    {
-                        "link": "https://github.com/Poleron402/sb",
-                        "type": "GitHub"
-                    }
+                   
                 ],
-                "title": "ChillJava",
-                "description": "My first Android application created for a final project."
-            },
-            "PMejiaDeepFakeEssay.pdf",
-            "PMejiaSWEEssay.pdf"
+                "title": "PLaceholder",
+                "description": "Will Add a project soon"
+            }
         ]
     
     },
@@ -144,23 +135,14 @@
         "code":"CST383",
         "title": "Introduction to Data Science",
         "description": "Introduction to Data Science taught advanced use cases for python data science libraries such as pandas and numpy. We had the opportunity to learn Machine Learning algorithms such as KNN, Linear Regression, Decision Trees, and more." ,
-        "projects": [
+          "projects": [
             {
                 "links":[
-                    {
-                        "link": "https://www.youtube.com/watch?v=Oz_JlrlvsZA",
-                        "type": "YouTube"
-                    },
-                    {
-                        "link": "https://github.com/Poleron402/sb",
-                        "type": "GitHub"
-                    }
+                   
                 ],
-                "title": "ChillJava",
-                "description": "My first Android application created for a final project."
-            },
-            "PMejiaDeepFakeEssay.pdf",
-            "PMejiaSWEEssay.pdf"
+                "title": "PLaceholder",
+                "description": "Will Add a project soon"
+            }
         ]
     
     },
@@ -168,23 +150,14 @@
         "code":"CST328",
         "title": "Digital Art and Design",
         "description": "CST 328 - Digital Art and Design taught the basics of color theory, the psychology behind colors, and what use cases would fit best for the type of service. Practiced applying the skills with tools like Figma, Unity, and Photoshop. " ,
-        "projects": [
+          "projects": [
             {
                 "links":[
-                    {
-                        "link": "https://www.youtube.com/watch?v=Oz_JlrlvsZA",
-                        "type": "YouTube"
-                    },
-                    {
-                        "link": "https://github.com/Poleron402/sb",
-                        "type": "GitHub"
-                    }
+                   
                 ],
-                "title": "ChillJava",
-                "description": "My first Android application created for a final project."
-            },
-            "PMejiaDeepFakeEssay.pdf",
-            "PMejiaSWEEssay.pdf"
+                "title": "PLaceholder",
+                "description": "Will Add a project soon"
+            }
         ]
     
     },
@@ -192,23 +165,14 @@
         "code":"CST370",
         "title": "Design and Analysis of Algorithms",
         "description": "Design and Analysis of Algorithms taught common algorithms needed to successfully tackle most Leetcode-like programmatic problems." ,
-        "projects": [
+          "projects": [
             {
                 "links":[
-                    {
-                        "link": "https://www.youtube.com/watch?v=Oz_JlrlvsZA",
-                        "type": "YouTube"
-                    },
-                    {
-                        "link": "https://github.com/Poleron402/sb",
-                        "type": "GitHub"
-                    }
+                   
                 ],
-                "title": "ChillJava",
-                "description": "My first Android application created for a final project."
-            },
-            "PMejiaDeepFakeEssay.pdf",
-            "PMejiaSWEEssay.pdf"
+                "title": "PLaceholder",
+                "description": "Will Add a project soon"
+            }
         ]
     
     },
@@ -216,23 +180,14 @@
         "code":"CST438",
         "title": "Software Engineering",
         "description": "CST 438 - Software Engineering involved learning about best software engineering practices as well as practicing the learned paradigms in an applied setting." ,
-        "projects": [
+          "projects": [
             {
                 "links":[
-                    {
-                        "link": "https://www.youtube.com/watch?v=Oz_JlrlvsZA",
-                        "type": "YouTube"
-                    },
-                    {
-                        "link": "https://github.com/Poleron402/sb",
-                        "type": "GitHub"
-                    }
+                   
                 ],
-                "title": "ChillJava",
-                "description": "My first Android application created for a final project."
-            },
-            "PMejiaDeepFakeEssay.pdf",
-            "PMejiaSWEEssay.pdf"
+                "title": "PLaceholder",
+                "description": "Will Add a project soon"
+            }
         ]
     
     },
@@ -240,23 +195,14 @@
         "code":"CST462S",
         "title": "Race, Gender, Class in the Digital World",
         "description": "The class dedicated to exploring social trends, and figuring out how the education we are getting is going affect and/or improve the state of those trends." ,
-        "projects": [
+          "projects": [
             {
                 "links":[
-                    {
-                        "link": "https://www.youtube.com/watch?v=Oz_JlrlvsZA",
-                        "type": "YouTube"
-                    },
-                    {
-                        "link": "https://github.com/Poleron402/sb",
-                        "type": "GitHub"
-                    }
+                   
                 ],
-                "title": "ChillJava",
-                "description": "My first Android application created for a final project."
-            },
-            "PMejiaDeepFakeEssay.pdf",
-            "PMejiaSWEEssay.pdf"
+                "title": "PLaceholder",
+                "description": "Will Add a project soon"
+            }
         ]
     
     },
@@ -264,23 +210,14 @@
         "code":"CST489",
         "title": "Capstone Project Planning",
         "description": "Preparation to the capstone class - planning and coordination" ,
-        "projects": [
+          "projects": [
             {
                 "links":[
-                    {
-                        "link": "https://www.youtube.com/watch?v=Oz_JlrlvsZA",
-                        "type": "YouTube"
-                    },
-                    {
-                        "link": "https://github.com/Poleron402/sb",
-                        "type": "GitHub"
-                    }
+                   
                 ],
-                "title": "ChillJava",
-                "description": "My first Android application created for a final project."
-            },
-            "PMejiaDeepFakeEssay.pdf",
-            "PMejiaSWEEssay.pdf"
+                "title": "PLaceholder",
+                "description": "Will Add a project soon"
+            }
         ]
     
     },
@@ -288,23 +225,14 @@
         "code": "CST329",
         "title": "Reasoning with Logic",
         "description": "Class teaching to use logic to describe and assess arguments." ,
-        "projects": [
+          "projects": [
             {
                 "links":[
-                    {
-                        "link": "https://www.youtube.com/watch?v=Oz_JlrlvsZA",
-                        "type": "YouTube"
-                    },
-                    {
-                        "link": "https://github.com/Poleron402/sb",
-                        "type": "GitHub"
-                    }
+                   
                 ],
-                "title": "ChillJava",
-                "description": "My first Android application created for a final project."
-            },
-            "PMejiaDeepFakeEssay.pdf",
-            "PMejiaSWEEssay.pdf"
+                "title": "PLaceholder",
+                "description": "Will Add a project soon"
+            }
         ]
     
     },
@@ -315,20 +243,11 @@
         "projects": [
             {
                 "links":[
-                    {
-                        "link": "https://www.youtube.com/watch?v=Oz_JlrlvsZA",
-                        "type": "YouTube"
-                    },
-                    {
-                        "link": "https://github.com/Poleron402/sb",
-                        "type": "GitHub"
-                    }
+                   
                 ],
-                "title": "ChillJava",
-                "description": "My first Android application created for a final project."
-            },
-            "PMejiaDeepFakeEssay.pdf",
-            "PMejiaSWEEssay.pdf"
+                "title": "PLaceholder",
+                "description": "Will Add a project soon"
+            }
         ]
     }
 ]

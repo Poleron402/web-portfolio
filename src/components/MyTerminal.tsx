@@ -27,7 +27,7 @@ const MyTerminal: React.FC<IndividualSchoolProjectProps> = ({project})=>{
                          break;
                 case "ls":
                     for (const proj of projects){
-                        if (typeof proj !== "string") {
+                        if (typeof proj !== "string" && proj !== null) {
 
                             returnString += proj.title+" "
                         }
@@ -41,7 +41,7 @@ const MyTerminal: React.FC<IndividualSchoolProjectProps> = ({project})=>{
 
 
                     for (const proj of projects){
-                        if (typeof proj !== "string" && strArgument === proj.title){
+                        if (typeof proj !== "string" && proj !== null && strArgument === proj.title){
                                 returnString += proj.description+" "
                         }
                         
@@ -53,7 +53,7 @@ const MyTerminal: React.FC<IndividualSchoolProjectProps> = ({project})=>{
                 case "links":
                     
                     for (const proj of projects){
-                        if (typeof proj !== "string" && strArgument === proj.title){
+                        if (typeof proj !== "string" && proj !== null && strArgument === proj.title){
                             for (const link of proj.links){
                                 returnString+=`<a class="terminalLinks" target="_blank" href=${link.link}>➜ ${proj.title}_${link.type}</a>&nbsp;&nbsp;`
                             }
