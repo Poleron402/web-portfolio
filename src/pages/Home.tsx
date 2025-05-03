@@ -1,7 +1,7 @@
 import { Outlet } from "react-router-dom";
 import Burger from "../components/Burger";
-import LinkedIn from "../assets/In-White-128.png"
-import GH from "../assets/github-mark-white.png"
+import LinkedIn from "/In-White-128.png"
+import GH from "/github-mark-white.png"
 import { Terminal } from "lucide-react";
 const Home = ()=>{
     return (
