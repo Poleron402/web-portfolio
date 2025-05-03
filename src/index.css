@@ -396,3 +396,9 @@ hr{
 .dangerousHTML{
   color: #eb50ff;
 }
+.terminalLinks{
+  color: #33ff00;
+}
+.terminalLinks:hover{
+  text-decoration: underline;
+}
