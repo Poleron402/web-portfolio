@@ -1,6 +1,6 @@
 
 import './App.css'
-import { BrowserRouter, Routes, Route } from 'react-router'
+import { HashRouter as Router, Routes, Route } from 'react-router'
 import Home from './pages/Home'
 import Contact from './pages/Contact'
 import Header from './components/Header'
@@ -8,14 +8,13 @@ import Projects from './pages/Projects'
 import Resume from './pages/Resume'
 import PersonalProjects from './components/PersonalProjects'
 import SchoolProjects from './components/SchoolProjects'
-import IndividualSchoolProject from './pages/IndividualSchoolProject'
 
 function App() {
 
   return (
     <>
      
-     <BrowserRouter>
+     <Router>
      <Header/>
       <Routes>
         <Route path="/" element={<Home/>}/>
@@ -27,7 +26,7 @@ function App() {
           <Route index element={<PersonalProjects/>}/>
         </Route>
       </Routes>
-     </BrowserRouter>
+     </Router>
     </>
   )
 }
