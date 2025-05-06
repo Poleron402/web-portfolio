@@ -13,13 +13,7 @@ const IndividualSchoolProject: React.FC<IndividualSchoolProjectProps> = ({projec
         const loadedLinks: ProjectList[] = []
         for (const link of project.projects){
             if (typeof link ==="string" && link.endsWith('.pdf')){
-                try {
-                    const mod = await import(`../assets/${link}`
-                    );
-                    loadedModules.push(mod.default);
-                }catch(err){
-                    alert(`Failed to import some modules: ${err}`)
-                }
+                loadedModules.push(`../assets/${link}`);
             }else{
                 loadedLinks.push(link as ProjectList)
             }

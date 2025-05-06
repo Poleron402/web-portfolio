@@ -2,7 +2,7 @@ import { Link, Outlet } from "react-router";
 import { useEffect, useState } from "react";
 import { GraduationCapIcon, HammerIcon } from "lucide-react";
 const Projects = ()=>{
-    let [personal, setPersonal] = useState<boolean>(true);
+    const [personal, setPersonal] = useState<boolean>(true);
     useEffect(()=>{
         setPersonal(true)
     }, [])

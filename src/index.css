@@ -180,7 +180,6 @@ hr{
 .responsiveDiv{
   background-color: #00000083;
   height: 100vh;
-
   width: 100%;
 
 }
@@ -191,7 +190,11 @@ hr{
     top: 580px;
   }
   #sweDevAni{
-    top: -200px;
+    top: 0;
+    position: absolute;
+  }
+  #leftAlignedText{
+    margin-top: -50px;
   }
   .responsiveDiv{
     position: relative;
@@ -206,7 +209,16 @@ hr{
 @media screen and (max-width: 700px){
   #burgerDiv{
     right: auto;
-    top: 480px;
+    top: 300px;
+  }
+  #leftAlignedText{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0%;
+    transform: scale(0.8);
+    margin-top: -140px;
   }
   .responsiveDiv{
     display: flex;
@@ -218,12 +230,23 @@ hr{
   }
 }
 @media screen and (max-width: 560px){
+  #leftAlignedText{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transform: scale(0.7);
+    margin-left: 0%;
+    margin-top: -140px;
+  }
   #burgerDiv{
     right: auto;
-    top: 480px;
+    top: 300px;
   }
   #sweDevAni{
     padding-inline: 0;
+    display: flex;
+    justify-content: center;
+
   }
   .responsiveDiv{
     display: flex;
