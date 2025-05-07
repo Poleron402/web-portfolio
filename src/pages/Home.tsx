@@ -6,7 +6,6 @@ import { Terminal } from "lucide-react";
 const Home = ()=>{
     return (
         <>
-        
         <div className="responsiveDiv">
             <div id='sweDevAni' className="relative max-w-7xl mx-auto px-16 py-64 flex">
                 <div id="leftAlignedText">
