@@ -11,8 +11,8 @@
                 "title": "Introductory Quantum Computing Presentation",
                 "description": "One of the video created to effectively explain a selected topic."
             },
-            "PMejiaDeepFakeEssay.pdf",
-            "PMejiaSWEEssay.pdf"
+            "https://poleron402.github.io/web-portfolio/assets/PMejiaDeepFakeEssay.pdf",
+            "https://github.com/Poleron402/web-portfolio/tree/gh-pages/assets/PMejiaSWEEssay.pdf"
         ]
     },
     {
@@ -84,16 +84,62 @@
             {
                 "links":[
                     {
-                        "link": "https://www.youtube.com/watch?v=Oz_JlrlvsZA",
-                        "type": "YouTube"
-                    },
-                    {
-                        "link": "https://github.com/Poleron402/sb",
+                        "link": "https://github.com/Poleron402/CST334-PA1",
                         "type": "GitHub"
                     }
                 ],
-                "title": "ChillJava",
-                "description": "My first Android application created for a final project."
+                "title": "PA1",
+                "description": "Initial Programming Assignment to accustom oneself with C and running tests."
+            },
+            {
+                "links":[
+                    {
+                        "link": "https://github.com/Poleron402/CST334-PA2",
+                        "type": "GitHub"
+                    }
+                ],
+                "title": "PA2",
+                "description": "This Programming Assignment was done to get accustomed with scheduling algorithms such as FIFO, LIFO, Round Robin, SJF, and others."
+            },
+            {
+                "links":[
+                    {
+                        "link": "https://github.com/Poleron402/CST334-PA3",
+                        "type": "GitHub"
+                    }
+                ],
+                "title": "PA3",
+                "description": "Paging PA"
+            },
+            {
+                "links":[
+                    {
+                        "link": "https://github.com/Poleron402/CST334-PA3",
+                        "type": "GitHub"
+                    }
+                ],
+                "title": "PA3",
+                "description": "Paging PA"
+            },
+            {
+                "links":[
+                    {
+                        "link": "https://github.com/Poleron402/CST334-PA4",
+                        "type": "GitHub"
+                    }
+                ],
+                "title": "PA4",
+                "description": "Memory Management Unit, Virtual Memory paging system."
+            },
+            {
+                "links":[
+                    {
+                        "link": "https://github.com/Poleron402/CST334-PA5",
+                        "type": "GitHub"
+                    }
+                ],
+                "title": "PA5",
+                "description": "PA5 implements an in-memory database to track player statistics in a thread-safe manner."
             }
         ]
     

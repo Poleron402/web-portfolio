@@ -29,7 +29,7 @@ const MyTerminal: React.FC<IndividualSchoolProjectProps> = ({project})=>{
                     for (const proj of projects){
                         if (typeof proj !== "string" && proj !== null) {
 
-                            returnString += proj.title+" "
+                            returnString += proj.title+"<br>"
                         }
                     }
                     

@@ -13,7 +13,7 @@ const IndividualSchoolProject: React.FC<IndividualSchoolProjectProps> = ({projec
         const loadedLinks: ProjectList[] = []
         for (const link of project.projects){
             if (typeof link ==="string" && link.endsWith('.pdf')){
-                loadedModules.push(`../assets/${link}`);
+                loadedModules.push(`${link}`);
             }else{
                 loadedLinks.push(link as ProjectList)
             }
@@ -28,6 +28,7 @@ const IndividualSchoolProject: React.FC<IndividualSchoolProjectProps> = ({projec
         console.log(myProjectFiles)
         console.log(myProjectLinks)
     }, [])
+    console.log(myProjectFiles)
     return(
         <>
        {myProjectFiles&&myProjectFiles.map((proj, idx)=>(
