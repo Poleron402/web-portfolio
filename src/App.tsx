@@ -23,7 +23,8 @@ function App() {
         <Route path="projects" element={<Projects/>}>
           <Route path="school" element={<SchoolProjects/>}/>
           {/* <Route path="school/:code" element={<IndividualSchoolProject/>}/> */}
-          <Route index element={<PersonalProjects/>}/>
+          <Route path="personal" element={<PersonalProjects/>}/>
+
         </Route>
       </Routes>
      </Router>

@@ -12,7 +12,7 @@
                 "description": "One of the video created to effectively explain a selected topic."
             },
             "https://poleron402.github.io/web-portfolio/assets/PMejiaDeepFakeEssay.pdf",
-            "https://github.com/Poleron402/web-portfolio/tree/gh-pages/assets/PMejiaSWEEssay.pdf"
+            "https://poleron402.github.io/web-portfolio/assets/PMejiaSWEEssay.pdf"
         ]
     },
     {
@@ -151,10 +151,28 @@
           "projects": [
             {
                 "links":[
-                   
+                   {
+                    "link": "https://poleron402.github.io/RickAndMorty/",
+                    "type": "Web" 
+                   },
+                   {
+                    "link": "https://github.com/Poleron402/RickAndMorty",
+                    "type": "GitHub"
+                   }
                 ],
-                "title": "PLaceholder",
-                "description": "Will Add a project soon"
+                "title": "Rick and Morty Infopage",
+                "description": "An Infopage for Rick and Morty show. Done as a practice in using the third-party APIs in personal projects. Allows for pagination, as well as lookup by name."
+            },
+            {
+                "links": [
+                   { 
+                    "link": "https://replit.com/@zhperon/VibeVault#index.js",
+                    "type": "Web" 
+                   }
+                ],
+                "title": "VibeVault",
+                "description": "A group project for the class. Acts as a journalind application for vibes, encorporates GIF and quotes APIs."
+            
             }
         ]
     

@@ -1,6 +1,7 @@
 import { Link, Outlet } from "react-router";
 import { useEffect, useState } from "react";
 import { GraduationCapIcon, HammerIcon } from "lucide-react";
+
 const Projects = ()=>{
     const [personal, setPersonal] = useState<boolean>(true);
     useEffect(()=>{
@@ -15,7 +16,7 @@ const Projects = ()=>{
         </div>
         <hr className="w-4/5 mx-auto color-teal-500"></hr>
         <div id="projects" className="flex-col justify-self-end px-32 py-20">
-            <Outlet/>
+            <Outlet/>    
         </div>
         
         </>

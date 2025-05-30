@@ -1,5 +1,5 @@
 import { Link } from "react-router";
-import BurgerLink from "../assets/burger-logo.png";
+import BurgerLink from "../../public/assets/burger-logo.png";
 import { Wrench, Mail, FileUser } from "lucide-react";
 const Header = ()=>{
 

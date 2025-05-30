@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 import courses from '../school.json'
-import IndividualSchoolProject from '../pages/IndividualSchoolProject'
+import IndividualSchoolProject from './IndividualSchoolProject'
 import { Course } from '../utils'
 import { MoveLeft } from 'lucide-react'
 import MyTerminal from './MyTerminal'

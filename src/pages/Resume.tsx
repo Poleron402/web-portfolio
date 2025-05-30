@@ -1,4 +1,4 @@
-import ResumePDF from '../assets/PolinaMejiaResume.pdf'
+import ResumePDF from '../../public/assets/PolinaMejiaResume.pdf'
 
 const Resume = () =>{
     const style = {

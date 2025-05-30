@@ -9,7 +9,9 @@ const MyTerminal: React.FC<IndividualSchoolProjectProps> = ({project})=>{
     
     const [history, setHistory] = useState<TerminalHistory[]>([])
     const [command, setCommand] = useState<string>("")
+    // const [commandList, setCommandList] = useState<string[]>([])
     const projects = project.projects
+    
     const handleKeyDown = (e: KeyboardEvent<HTMLInputElement>) =>{
         const [myCommand, ...argument] = command.split(" ")
         const strArgument = argument.join(' ')
@@ -70,7 +72,9 @@ const MyTerminal: React.FC<IndividualSchoolProjectProps> = ({project})=>{
                     break;
             }
         }
-        
+        // if (e.key == 'ArrowUp'){
+        //     setCommand()
+        // }
     }
     return (
         <>

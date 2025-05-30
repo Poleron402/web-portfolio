@@ -1,7 +1,8 @@
 import { useEffect, useState } from "react"
 import { Course,ProjectList } from "../utils"
-import YT from '../assets/yt_logo_mono_dark.png'
-import GH from '../assets/github-mark-white.png' 
+import YT from '../../public/assets/yt_logo_mono_dark.png'
+import GH from '../../public/assets/github-mark-white.png' 
+import { SquareArrowUpRight } from "lucide-react"
 interface IndividualSchoolProjectProps{
     project: Course,
 }
@@ -25,8 +26,6 @@ const IndividualSchoolProject: React.FC<IndividualSchoolProjectProps> = ({projec
     useEffect(()=>{
         loadModules()
 
-        console.log(myProjectFiles)
-        console.log(myProjectLinks)
     }, [])
     console.log(myProjectFiles)
     return(
@@ -45,9 +44,13 @@ const IndividualSchoolProject: React.FC<IndividualSchoolProjectProps> = ({projec
                     proj.links.map((mylink: { type: string; link: string}, index: number)=>{
                         return mylink.type=='YouTube'?(
                         <div key={index} className="buttonAlignment"><a target="_blank" className="awayButton" href={mylink.link}><img width={120} src={YT}></img></a></div>
-                        ):(
+                        )
+                        : mylink.type=='GitHub'?(
                         <a key={index} target="_blank" className="awayButton" href={mylink.link}><span className="inLine"><img width={40} src={GH}/></span></a>
-                    )})
+                        ):(
+                            <button className="awayButton"><a href={mylink.link} target="_blank"><span className="inLine">View Site &nbsp;<SquareArrowUpRight/></span></a></button>
+                        )
+                    })
                 }
                 </div>
             </div>

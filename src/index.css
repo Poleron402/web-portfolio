@@ -8,7 +8,7 @@ body, html{
   height: 100%;
   width: 100%;
   background-color: #161418;
-  background-image: url('assets/image-1.png');
+  background-image: url('/web-portfolio/assets/image-1.png');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -246,7 +246,6 @@ hr{
     padding-inline: 0;
     display: flex;
     justify-content: center;
-
   }
   .responsiveDiv{
     display: flex;
@@ -341,7 +340,8 @@ hr{
 }
 .inLine{
   display: flex;
-  align-items: flex-end;
+  align-items: center;
+  justify-content: center;
 }
 #leftAlign{
   width: 100%;
@@ -425,3 +425,4 @@ hr{
 .terminalLinks:hover{
   text-decoration: underline;
 }
+
