@@ -18,8 +18,15 @@ jobs:
         uses: actions/setup-node@v4
         with: 
           node-version: 22
-      - run: npm ci
-      - run: npm run build
-      - run: npm run deploy
+      - name: Set Up GH identity
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+      - name: Installing dependencies...
+        run: npm ci
+      - name: Building...
+        run: npm run build
+      - name: Deploy 🚀
+        run: npm run deploy
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
