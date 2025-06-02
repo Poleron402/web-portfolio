@@ -1,0 +1,21 @@
+name: Deploy to GH Pages
+
+on:
+  push:
+    branches:
+      - main
+
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/chjeckout@v3
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+      - run: npm ci
+      - run: npm run build
+      - run: npm run deploy
