@@ -341,7 +341,6 @@ hr{
 .inLine{
   display: flex;
   align-items: center;
-  justify-content: center;
 }
 #leftAlign{
   width: 100%;
@@ -352,15 +351,14 @@ hr{
 }
 .projectLink{
   color: #9ff0e4;
+  align-items: center;
 }
 .awayButton{
   font-size: 1.5em;
   padding: 8px;
   border: 2px solid #9ff0e4;
   border-radius: 20px;
-}
-.projectLink{
-  align-items: center;
+  font-size: 20px;
 }
 .projectLink>h1{
   font-size: 1.5em;

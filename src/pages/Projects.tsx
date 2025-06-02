@@ -5,13 +5,14 @@ import { GraduationCapIcon, HammerIcon } from "lucide-react";
 const Projects = ()=>{
     const [personal, setPersonal] = useState<boolean>(true);
     useEffect(()=>{
+        console.log(personal)
         setPersonal(true)
     }, [])
     return (
         <>
         <div id="subcategory" className="flex content-center text-jakarta justify-evenly">
                 <Link to="/projects" onClick={()=>setPersonal(true)} className={personal?"personalVsSchool active flex items-center": "personalVsSchool flex items-center"}>Personal &nbsp;<HammerIcon className={personal?'visible':'invisible'}/></Link>
-                <Link to="school" onClick={()=>setPersonal(false)}className={!personal?"personalVsSchool flex items-center active": "personalVsSchool flex items-center"}>School &nbsp; <GraduationCapIcon className={!personal?'visible':'invisible'}/></Link>
+                <Link to="school" onClick={()=>setPersonal(false)} className={!personal?"personalVsSchool flex items-center active": "personalVsSchool flex items-center"}>School &nbsp; <GraduationCapIcon className={!personal?'visible':'invisible'}/></Link>
 
         </div>
         <hr className="w-4/5 mx-auto color-teal-500"></hr>

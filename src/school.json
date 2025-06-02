@@ -217,10 +217,17 @@
           "projects": [
             {
                 "links":[
-                   
+                   {
+                    "link": "https://www.figma.com/proto/VOLpNRYpz6c8MfHTsQuOl5/Final?node-id=0-1&t=QOQkypd8xlttruth-1",
+                    "type": "Web"
+                   },
+                   {
+                    "link": "https://www.figma.com/design/VOLpNRYpz6c8MfHTsQuOl5/Final?node-id=0-1&m=dev&t=QOQkypd8xlttruth-1",
+                    "type": "Web"
+                   }
                 ],
-                "title": "PLaceholder",
-                "description": "Will Add a project soon"
+                "title": "IdeaShare Project Design",
+                "description": "UI/UX design for an application designed for team managers and educators to view, approve, and supervise coding projects. Mostly catering to professors to facilitate creating project-based learning."
             }
         ]
     
@@ -232,10 +239,13 @@
           "projects": [
             {
                 "links":[
-                   
+                   {
+                    "link":"https://github.com/Poleron402/hw6-1-cst370",
+                    "type": "GitHub"
+                   }
                 ],
-                "title": "PLaceholder",
-                "description": "Will Add a project soon"
+                "title": "Coin collecting algorithm",
+                "description": "One of the latest assignments doine for the class on algorithms."
             }
         ]
     
@@ -247,10 +257,13 @@
           "projects": [
             {
                 "links":[
-                   
+                    {
+                        "link": "https://github.com/cst438-team10",
+                        "type": "GitHub"
+                    }
                 ],
-                "title": "PLaceholder",
-                "description": "Will Add a project soon"
+                "title": "Grade and Transcript Management System",
+                "description": "A code for a web application used for course, enrollment, and grade management. Main technologies used were React JS and SpringBoot for frontend and backend respectively."
             }
         ]
     
@@ -260,13 +273,7 @@
         "title": "Race, Gender, Class in the Digital World",
         "description": "The class dedicated to exploring social trends, and figuring out how the education we are getting is going affect and/or improve the state of those trends." ,
           "projects": [
-            {
-                "links":[
-                   
-                ],
-                "title": "PLaceholder",
-                "description": "Will Add a project soon"
-            }
+            "https://poleron402.github.io/web-portfolio/assets/ResearchPaperCSUMB.pdf"
         ]
     
     },
