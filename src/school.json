@@ -171,7 +171,7 @@
                    }
                 ],
                 "title": "VibeVault",
-                "description": "A group project for the class. Acts as a journalind application for vibes, encorporates GIF and quotes APIs."
+                "description": "A group project for the class. Acts as a journaling application for one's emotions, encorporates GIF and quotes APIs for interactivity."
             
             }
         ]
@@ -202,10 +202,13 @@
           "projects": [
             {
                 "links":[
-                   
+                   {
+                    "link": "https://github.com/Poleron402/DS_class",
+                    "type": "GitHub"
+                   }
                 ],
-                "title": "PLaceholder",
-                "description": "Will Add a project soon"
+                "title": "Some homework/labs",
+                "description": "Several homework and laboratory assignments from the database class. Through these assignments, I learned DS libraries such as numpy, pandas, scikit, plotly, seaborn, and more."
             }
         ]
     
