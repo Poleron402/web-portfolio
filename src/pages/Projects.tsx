@@ -4,12 +4,12 @@ import { GraduationCapIcon, HammerIcon } from "lucide-react";
 
 const Projects = ()=>{
     const location = useLocation();
-    const personal = location.pathname.includes("/personal");
+    const school = location.pathname.includes("/school");
     return (
         <>
         <div id="subcategory" className="flex content-center text-jakarta justify-evenly">
-                <Link to="personal" className={personal?"personalVsSchool active flex items-center": "personalVsSchool flex items-center"}>Personal &nbsp;<HammerIcon className={personal?'visible':'invisible'}/></Link>
-                <Link to="school" className={!personal?"personalVsSchool flex items-center active": "personalVsSchool flex items-center"}>School &nbsp; <GraduationCapIcon className={personal?'invisible':'visible'}/></Link>
+                <Link to="/projects" className={!school?"personalVsSchool active flex items-center": "personalVsSchool flex items-center"}>Personal &nbsp;<HammerIcon className={school?'invisible':'visible'}/></Link>
+                <Link to="school" className={school?"personalVsSchool flex items-center active": "personalVsSchool flex items-center"}>School &nbsp; <GraduationCapIcon className={school?'visible':'invisible'}/></Link>
 
         </div>
         <hr className="w-4/5 mx-auto color-teal-500"></hr>

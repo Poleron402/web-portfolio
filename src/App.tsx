@@ -23,7 +23,7 @@ function App() {
         <Route path="projects" element={<Projects/>}>
           <Route path="school" element={<SchoolProjects/>}/>
           {/* <Route path="school/:code" element={<IndividualSchoolProject/>}/> */}
-          <Route path="personal" element={<PersonalProjects/>}/>
+          <Route path="" element={<PersonalProjects/>}/>
 
         </Route>
       </Routes>
