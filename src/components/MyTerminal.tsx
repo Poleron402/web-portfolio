@@ -24,7 +24,7 @@ const MyTerminal: React.FC<IndividualSchoolProjectProps> = ({project})=>{
                     break
                 case "help":
                     setHistory((prevItems)=> [...prevItems, {command: command,
-                         result: "=== Available commands ===<br>ls - list projects<br>cat [PROJECT] - read what the project is about<br>links [PROJECT] - get the links for the project <br>"}])
+                         result: "=== Available commands ===<br>ls - list projects<br>cat [PROJECT] - read what the project is about<br>links [PROJECT] - get the links for the project <br>clear - clear<br>"}])
                          setCommand("")
                          break;
                 case "ls":
