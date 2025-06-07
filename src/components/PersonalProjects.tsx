@@ -2,7 +2,7 @@
 const PersonalProjects = () =>{
     return(
            <>
-            Nothing to see here yet, refer to GH :p
+            Nothing to see here yet, refer to GH
            </> 
     )
 }
