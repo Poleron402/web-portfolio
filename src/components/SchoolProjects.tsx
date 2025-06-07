@@ -19,7 +19,7 @@ const SchoolProjects = () =>{
             {
                 classes && classes.map((course)=>(
                 <div key={course.code} className="course">
-                    <h4 className="courseTitle">{course.title}</h4>
+                    <h4 className="courseTitle">{course.code} - {course.title}</h4>
                     <p className='courseDesc'>{course.description}</p>
                     <button className="projButton" onClick={() =>setPickedCourse(course)}>View Projects</button>
                 </div>
