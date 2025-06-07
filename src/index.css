@@ -159,10 +159,7 @@ h1{
 .social:hover, .awayButton:hover{
   transform: scale(1.1);
 }
-/* 
-.icons{
-  display: none;
-} */
+
 hr{
   border-color: rgb(20 184 166);
 }
@@ -183,93 +180,6 @@ hr{
   width: 100%;
 }
 
-@media screen and (max-width: 1700px){
-  #burgerDiv{
-    right: auto;
-    top: 580px;
-  }
-  #sweDevAni{
-    top: 0;
-    position: absolute;
-  }
-  #leftAlignedText{
-    margin-top: -50px;
-  }
-  .responsiveDiv{
-    min-height: 100vh;
-    /* position: relative; */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  .burger{
-    transform: scale(0.8);
-  }
-}
-@media screen and (max-width: 700px){
-  #burgerDiv{
-    right: auto;
-    top: 300px;
-  }
-  #leftAlignedText{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-left: 0%;
-    transform: scale(0.8);
-    margin-top: -140px;
-  }
-  .responsiveDiv{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .burger{
-    transform: scale(0.75);
-  }
-}
-@media screen and (max-width: 560px){
-  #leftAlignedText{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    transform: scale(0.7);
-    margin-left: 0%;
-    margin-top: -140px;
-  }
-  #burgerDiv{
-    right: auto;
-    top: 300px;
-  }
-  #sweDevAni{
-    padding-inline: 0;
-    display: flex;
-    justify-content: center;
-  }
-  .responsiveDiv{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .burger{
-    transform: scale(0.75);
-    width: 100%;
-  }
-  .icons{
-    display: block;
-    width: 100%;
-  }
-  .names{
-    display: none;
-  }
-  #header{
-    display: flex;
-    justify-content: space-evenly;
-    width: 100%;
-  }
-}
 
 /* ============= Contact ============= */
 #contactLinks{
@@ -295,7 +205,7 @@ hr{
   width: 20%;
   padding: 20px;
   margin: 20px; 
-  height: 30vh;
+  height: 28vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -384,6 +294,7 @@ background: linear-gradient(173deg, rgba(238, 174, 202, 0.75) 0%, rgba(148, 187,
   background-color: #2a626673;
   color: #9ff0e4;
   margin: 20px; 
+  min-height: 350px;
   height: 30vh;
   display: flex;
   position: relative;
@@ -506,3 +417,107 @@ background: linear-gradient(173deg, rgba(238, 174, 202, 0.75) 0%, rgba(148, 187,
   text-decoration: underline;
 }
 
+
+@media screen and (max-width: 1700px){
+  #burgerDiv{
+    right: auto;
+    top: 580px;
+  }
+  #sweDevAni{
+    margin-top: -200px;
+  }
+  #leftAlignedText{
+    margin-top: -50px;
+  }
+  .responsiveDiv{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .burger{
+    margin-top: 7rem;
+    transform: scale(0.8);
+  }
+}
+@media screen and (max-width: 700px){
+  #sweDevAni{
+    margin-top: 4rem;
+    padding-inline: 0;
+    display: flex;
+    justify-content: center;
+  }
+  #burgerDiv{
+    right: auto;
+    top: 300px;
+  }
+  #leftAlignedText{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0%;
+    transform: scale(0.8);
+    margin-top: -140px;
+  }
+  .responsiveDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .burger{
+    margin-top: 7rem;
+    transform: scale(0.75);
+  }
+
+}
+@media screen and (max-width: 560px){
+  #leftAlignedText{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transform: scale(0.7);
+    margin-left: 0%;
+    margin-top: -140px;
+  }
+  #burgerDiv{
+    right: auto;
+    top: 300px;
+  }
+  #sweDevAni{
+    margin-top: 4rem;
+    padding-inline: 0;
+    display: flex;
+    justify-content: center;
+  }
+  .responsiveDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .burger{
+    transform: scale(0.75);
+    width: 100%;
+  }
+  .icons{
+    display: block;
+    width: 100%;
+  }
+  .names{
+    display: none;
+  }
+  #header{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+  }
+  #contact{
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  #square, #square2{
+    margin-top: 100px;
+  }
+
+}
