@@ -281,32 +281,15 @@
     
     },
     {
-        "code":"CST489",
-        "title": "Capstone Project Planning",
-        "description": "Preparation to the capstone class - planning and coordination" ,
-          "projects": [
-            {
-                "links":[
-                   
-                ],
-                "title": "PLaceholder",
-                "description": "Will Add a project soon"
-            }
-        ]
-    
-    },
-    {
         "code": "CST329",
         "title": "Reasoning with Logic",
         "description": "Class teaching to use logic to describe and assess arguments." ,
           "projects": [
-            {
-                "links":[
-                   
-                ],
-                "title": "PLaceholder",
-                "description": "Will Add a project soon"
-            }
+            
+            "https://poleron402.github.io/web-portfolio/assets/public/assets/Homework7.pdf",
+            "https://poleron402.github.io/web-portfolio/assets/public/assets/public/assets/Homework6.pdf",
+            "https://poleron402.github.io/web-portfolio/assets/public/assets/public/assets/public/assets/Homework6P2.pdf"
+
         ]
     
     },
@@ -322,6 +305,7 @@
                 "title": "PLaceholder",
                 "description": "Will Add a project soon"
             }
+        
         ]
     }
 ]
