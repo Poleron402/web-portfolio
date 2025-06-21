@@ -294,6 +294,23 @@
     
     },
     {
+        "code": "CST489",
+        "title": "Capstone Project Planning",
+        "description": "CST 489 - Computer Science Capstone Project planning is a class developed to prepare us to full-on capstone project development. During CST-489, the stuidents are to break into teams, decide on the project goal, scope, and timeline, and find a faculty mentor to assist students throughout the process.",
+        "projects": [
+            {
+                "links":[{
+                   "link": "https://www.youtube.com/watch?v=vng2HfxBsew",
+                    "type": "YouTube"
+                }
+                ],
+                "title": "Project proposal video",
+                "description": "A video that encompasses all the points covered in a proposal paper."
+            }
+        
+        ]
+    },
+    {
         "code": "CST499",
         "title": "Computer Science Capstone",
         "description": "CST 499 - Computer Science Capstone is dedicated fully to the creation of full-fledged application that is a capstone of the C.S. program at CSUMB",
