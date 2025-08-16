@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react'
 import courses from '../school.json'
 import IndividualSchoolProject from './IndividualSchoolProject'
+import Capstone from './Capstone'
 import { Course } from '../utils'
 import { MoveLeft } from 'lucide-react'
 import MyTerminal from './MyTerminal'
@@ -34,14 +35,16 @@ const SchoolProjects = () =>{
                     <button className="backButton" onClick={()=>setPickedCourse(null)}><span className='inLine'><MoveLeft/> Back To Courses</span></button>
                     </div>
                     {
-                        pickedCourse.code !== 'CST334'?
+                        pickedCourse.code !== 'CST334' && pickedCourse.code !== 'CST499'?
                         (
                             <div id='classes'>
                                 <IndividualSchoolProject project={pickedCourse}/>
                             </div>
-                        ) : (
+                        ) : pickedCourse.code == 'CST334'?(
                             <MyTerminal project={pickedCourse}/>
-                        )                       
+                        ) : (
+                            <Capstone/>
+                        )                   
                     }
                     
                 </div>
