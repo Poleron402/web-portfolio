@@ -373,7 +373,7 @@ background: linear-gradient(173deg, rgba(238, 174, 202, 0.75) 0%, rgba(148, 187,
 
 }
 #capstonePage{
-  padding-bottom: 200px;
+  padding-bottom: 100px;
   background: #ffffff;
   background: linear-gradient(90deg,rgba(137, 145, 204, 1) 0%, rgba(179, 111, 157, 1) 100%);
 }
@@ -381,12 +381,20 @@ background: linear-gradient(173deg, rgba(238, 174, 202, 0.75) 0%, rgba(148, 187,
   box-shadow: 0 45px 100px rgba(0, 0, 0, 0.1);
   border-radius: 20px;
   overflow:hidden;
+  transition: all .5s ease-in;
+}
+.imageDiv:hover{
+  transform: scale(1.01);
 }
 .vt {
     font-family: "VT323";
     font-weight: 400;
     font-style: normal;
     font-size: 80px;
+}
+#props{
+  font-family: "VT323";
+  font-size: 30px;
 }
 .vtsub{
   font-family: "VT323";
@@ -443,6 +451,38 @@ background: linear-gradient(173deg, rgba(238, 174, 202, 0.75) 0%, rgba(148, 187,
   align-items: center;
 }
 
+/* =============== Personal =============== */
+#PersonalProjectPage {
+  background-color: #161418;
+  border-radius: 20px;
+  padding-inline: 5%;
+  padding-bottom: 5%;
+}
+.intro{
+  font-size: 20px;
+  margin-right: 20%;
+  margin-bottom: 4%;
+}
+#in-text-link{
+  text-decoration: underline;
+  color: #ffffff;
+  background-color: #6866e0;
+  padding: 2px;
+  padding-inline: 8px;
+  border-radius: 20px;
+  transition: .3s all ease-in;
+}
+#in-text-link:hover{
+  background-color: #c766e0;
+}
+#innovative{
+  color: #ffffff;
+  background-color: #6866e0;
+  padding: 2px;
+  padding-inline: 8px;
+  border-radius: 20px;
+  transition: .3s all ease-in;
+}
 /* =============== Terminal =============== */
 
 #term{

@@ -25,13 +25,13 @@ const Contact = ()=>{
                 <h1>Contact</h1>
                 <div id="email">
                     <p className="contactLink" onClick={() => {
-                        navigator.clipboard.writeText("zhperon@gmail.com")
-                        setClicked(true)}}>zhperon@gmail.com</p>
+                        navigator.clipboard.writeText("polinamejia1@gmail.com")
+                        setClicked(true)}}>polinamejia1@gmail.com</p>
                     {
                         clicked&&
                         <p id="clipboard">Copied to Clipboard!</p>
                     }
-                        </div>
+                    </div>
             </div>
         </div>
         </>

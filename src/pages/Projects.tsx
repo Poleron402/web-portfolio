@@ -2,13 +2,14 @@ import { Link, Outlet } from "react-router";
 import { useLocation } from "react-router";
 import { GraduationCapIcon, HammerIcon } from "lucide-react";
 
+
 const Projects = ()=>{
     const location = useLocation();
     const school = location.pathname.includes("/school");
     return (
         <>
         <div id="subcategory" className="flex content-center text-jakarta justify-evenly">
-                <Link to="/projects" className={!school?"personalVsSchool active flex items-center": "personalVsSchool flex items-center"}>Personal &nbsp;<HammerIcon className={school?'invisible':'visible'}/></Link>
+                <Link to="" className={!school?"personalVsSchool active flex items-center": "personalVsSchool flex items-center"}>Personal &nbsp;<HammerIcon className={school?'invisible':'visible'}/></Link>
                 <Link to="school" className={school?"personalVsSchool flex items-center active": "personalVsSchool flex items-center"}>School &nbsp; <GraduationCapIcon className={school?'visible':'invisible'}/></Link>
 
         </div>

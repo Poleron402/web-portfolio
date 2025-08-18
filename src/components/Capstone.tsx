@@ -24,6 +24,10 @@ const Capstone = ()=>{
                 <div className='imageDiv'><img width="1400" src={workbench}></img></div>
                 <h1><span className="vtsub">Adjust how different components sound</span> 🔊</h1>
                 <div className='imageDiv'><img width="1400" src={mixer}></img></div>
+                <br></br>
+                <br></br>
+                <br></br>
+                <h3 id="props">P.S. This project wouldn't be possible without my teammates - Aryeh Freud, Henry Garkanian, Eric Rodriguez and Tony Suvorov!</h3>
             </div>
         </div>
         </>
